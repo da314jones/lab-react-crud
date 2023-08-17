@@ -1,16 +1,16 @@
-.movie-index-wrapper {
+.movies-index-wrapper {
     margin: 0 auto;
     width: 70%;
   }
   
-  .movie-index-wrapper label {
+  .movies-index-wrapper label {
     display: block;
     width: 50%;
     margin: auto;
     text-align: center;
   }
   
-  .movie-index {
+  .movies-index {
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(2, 1fr);
@@ -26,16 +26,16 @@
   }
   
   @media screen and (max-width: 1000px) {
-    .movie-index-wrapper {
+    .movies-index-wrapper {
       width: 90%;
     }
-    .movie-index {
+    .movies-index {
       grid-template-columns: repeat(2, 1fr);
     }
   }
   
   @media screen and (max-width: 800px) {
-    .movie-index {
+    .movies-index {
       grid-template-columns: 1fr;
     }
   }

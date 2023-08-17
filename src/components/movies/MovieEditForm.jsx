@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import React from 'react';
 import {useParams, useNavigate} from "react-router-dom";
 import { getOneMovie, updateMovie } from '../../api/fetch';
-import "./MovieForm.css"
+import "./MoviesForm.css"
 export default function MoviesForm(){
  const [movie, setMovie] = useState({
         type: "",

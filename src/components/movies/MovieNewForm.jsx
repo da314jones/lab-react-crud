@@ -1,4 +1,4 @@
-import ",/MovieForm.css";
+import "./MoviesForm.css";
 import { useState } from 'react';
 import {useNavigate} from "react-router-dom";
 import {createMovie} from "../../api/fetch";
